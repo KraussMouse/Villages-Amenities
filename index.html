@@ -8995,6 +8995,19 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         setBounds();
+    
+        var overlayMaps = {
+    "layer_AirGunRange_33": Air Gun Range
+            "layer_Archery_32": Archery
+            "layer_Basketball_31": Basketball
+            "layer_BocceBall_30": Bocce Ball
+            "layer_Bowling_29": Bowling
+};
+            
+            L.control.layers(overlayMaps).addTo(map);
+        
+        
+        
         </script>
     </body>
 </html>
